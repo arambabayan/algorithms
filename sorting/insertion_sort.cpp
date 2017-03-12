@@ -32,7 +32,7 @@ int main()
 	int n ;
 	std::cin >> n ;
 	
-//vector that we want to sort
+//the vector that we want to sort
 	std::vector<int> arr( n ) ;
 	for ( int i = 0 ; i < n ; ++i )
 	{
