@@ -28,7 +28,7 @@ std::vector<int> insertion_sort( std::vector<int> V )
 int main()
 {
 	
-//n shows the size of vector
+//n shows the size of the vector
 	int n ;
 	std::cin >> n ;
 	
