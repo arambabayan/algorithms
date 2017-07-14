@@ -22,9 +22,7 @@ void max_heapify(std::vector<int> &A , int i)
     }
     if( largest != i)
     {
-        int saved = A[i] ; 
-        A[i] = A[largest] ;
-        A[largest] = saved ;
+        std::swap( A[i] , A[largest] )
         max_heapify( A , largest );
     }
 }
