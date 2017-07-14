@@ -1,11 +1,5 @@
 #include <vector>
 #include <climits>
-#include <iostream>
-#include <algorithm>
-#include <functional>
-#include <random>
-#include <iterator>
-
 
 void merge( std::vector<int> &A , const int p , const int q , const int r )
 {
