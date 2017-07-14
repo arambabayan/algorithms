@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> insertion_sort( std::vector<int> V )
+void insertion_sort( std::vector<int>& V )
 {
         int n = V.size() ;
 	int key ;
@@ -18,34 +18,5 @@ std::vector<int> insertion_sort( std::vector<int> V )
 		}
                 
 		V [ j + 1 ] = key ;
-                
-        }
-	return V;
-
-}
-
-
-int main()
-{
-	
-//n shows the size of the vector
-	int n ;
-	std::cin >> n ;
-	
-//the vector that we want to sort
-	std::vector<int> arr( n ) ;
-	for ( int i = 0 ; i < n ; ++i )
-	{
-		std::cin >> arr [i] ;
-	} 
-//sorted vector
-	std::vector<int> sorted_arr ( insertion_sort ( arr ) ) ;
-
-//print to screen	
-	for ( std::vector<int>::iterator it = sorted_arr.begin() ; it != sorted_arr.end() ; ++it)
-	{
-		std::cout << *it << ' ' ;
-	}
-	
-	return 0;
+         }
 }
