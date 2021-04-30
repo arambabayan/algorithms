@@ -1,2 +1,2 @@
 # algorithms
-Here are some algorithms in c++ language
+Here are some algorithms in c++
